@@ -23,15 +23,18 @@ $(function () {
         q.width = width;
         q.height = height;
          
-        var draw = function () {
+        // run_matrix();
+        var matrix_interval = setInterval(function () {
             ctx.fillStyle = 'rgba(0, 0, 0, .05)';
             ctx.fillRect(0, 0, width, height);
             ctx.fillStyle = '#0F0';
             ctx.font = '10pt Georgia';
+
             yPositions.map(function(y, index) {
-                var text = String.fromCharCode(1e2 + Math.random() * 33);
-                var x = (index * 10) + 10;
-                ctx.fillText(text, x, y);
+                ctx.fillText(String.fromCharCode(1e2 + Math.random() * 33),
+                    (index * 10) + 10, 
+                    y);
+
                 if(y > 100 + Math.random() * 1e4) {
                     yPositions[index] = 0;
                 }
@@ -39,9 +42,8 @@ $(function () {
                     yPositions[index] = y + 10;
                 }
             });
-        };
-        // run_matrix();
-        var matrix_interval = setInterval(draw, 33);
+        }, 33);
+        // click stop
         stage.click(function () {
             clearInterval(matrix_interval);
             $(this).parents('div').remove();            
