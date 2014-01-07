@@ -28,6 +28,7 @@ $(function() {
                 var rc = me.data[0].split(' ');
                 me.frame_row = parseInt(rc[0]);
                 me.frame_col = parseInt(rc[1]);
+                $('#div_loading').remove();
                 fn && fn();
             });
         },
