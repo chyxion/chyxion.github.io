@@ -51,7 +51,7 @@ $(function() {
                         me.init();
                     }
 
-                    if (count > 1) {
+                    if (count > 1 && index < me.data_count) {
                         me.load_data(index + 1, count - 1, fn);
                     }
                     else {
