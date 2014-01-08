@@ -4,6 +4,7 @@ $(function() {
         data_index: 0,
         data_count: 135,
         is_loading: {},
+        progress: $('#progress'),
         init: function() {
             var me = this,
                 stage = $('#stage'),
@@ -34,6 +35,9 @@ $(function() {
                     me.is_loading[index] = null;
                     me.data_index = index;
                     data = data.split('\n');
+                    // update progress
+                    me.progress.html((index / me.data_count * 100).toFixed(2) + '%');
+
                     if (me.data) {
                         me.data = me.data.concat(data);
                     }
