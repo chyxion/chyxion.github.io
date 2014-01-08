@@ -22,7 +22,7 @@ $(function() {
             me.ctx.fillStyle = 'rgba(0, 0, 0, .05)';
             me.ctx.fillRect(0, 0, me.canvas.width, me.canvas.height);
             me.ctx.fillStyle = '#7E7E7E';
-            me.ctx.font = '12px Microsft YaHei';
+            me.ctx.font = '12px monospace';
         },
         load_data: function (index, count, fn) {
         	var me = this;
