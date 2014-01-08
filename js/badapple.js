@@ -2,7 +2,7 @@ $(function() {
     var BadApple = {
         is_running: false,
         data_index: 0,
-        data_count: 136,
+        data_count: 135,
         is_loading: {},
         init: function() {
             var me = this,
