@@ -3,6 +3,7 @@ $(function() {
         is_running: false,
         data_index: 0,
         data_count: 136,
+        is_loading: {},
         init: function() {
             var me = this,
                 stage = $('#stage'),
@@ -23,44 +24,37 @@ $(function() {
             me.ctx.fillStyle = '#7E7E7E';
             me.ctx.font = '12px Microsft YaHei';
         },
-        load_data_batch: function (index, size, fn) {
-            var me = this;
-        	me.load_data(index, function (data) {
-        		// append data to local
-        		me.data = me.data.concat(data);
-        		if (size > 1) {
-        			me.load_data_batch(index + 1, size - 1, fn);
-        		}
-        		else {
-        			fn && fn();
-        		}
-        	});
-        },
         load_data: function (index, count, fn) {
         	var me = this;
-            $.get('data/BadApple/data_' + index + '.txt', function (data) {
-            	me.data_index = index;
-            	data = data.split('\n');
-            	if (me.data) {
-            		me.data = me.data.concat(data);
-            	}
-            	// first time
-            	else {
-            		me.data = data;
-	                var rc = data[0].split(' ');
-	                me.frame_row = parseInt(rc[0]);
-	                me.frame_col = parseInt(rc[1]);
-	                $('#div_loading').remove();
-	                me.init();
-            	}
+            if (!me.is_loading[index]) {
+                // mark is loading
+                me.is_loading[index] = true;
+                $.get('data/BadApple/data_' + index + '.txt', function (data) {
+                    // finish loading
+                    me.is_loading[index] = null;
+                    me.data_index = index;
+                    data = data.split('\n');
+                    if (me.data) {
+                        me.data = me.data.concat(data);
+                    }
+                    // first time
+                    else {
+                        me.data = data;
+                        var rc = data[0].split(' ');
+                        me.frame_row = parseInt(rc[0]);
+                        me.frame_col = parseInt(rc[1]);
+                        $('#div_loading').remove();
+                        me.init();
+                    }
 
-        		if (count > 1) {
-        			me.load_data(index + 1, count - 1, fn);
-        		}
-        		else {
-        			fn && fn();
-        		}
-            });
+                    if (count > 1) {
+                        me.load_data(index + 1, count - 1, fn);
+                    }
+                    else {
+                        fn && fn();
+                    }
+                });
+            }
         },
         draw_frame: function(data) {
             var me = this, i;
