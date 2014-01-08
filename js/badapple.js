@@ -1,8 +1,8 @@
 $(function() {
     var BadApple = {
         is_running: false,
-        data_count: 0,
-        data_total_count: 136,
+        data_index: 0,
+        data_count: 136,
         init: function() {
             var me = this,
                 stage = $('#stage'),
@@ -38,8 +38,8 @@ $(function() {
         },
         load_data: function (index, count, fn) {
         	var me = this;
-            $.get('data/BadApple/data_' + index, function (data) {
-            	++me.data_count;
+            $.get('data/BadApple/data_' + index + '.txt', function (data) {
+            	me.data_index = index;
             	data = data.split('\n');
             	if (me.data) {
             		me.data = me.data.concat(data);
@@ -91,9 +91,9 @@ $(function() {
                     }
                     me.draw_frame(r);
                     // load data
-                    if (i + 16 > me.data_count * 16 && 
-                    		me.data_count < me.data_total_count) {
-                    	me.load_data_batch(me.data_count, 3);
+                    if (i + 16 > me.data_index * 16 && 
+                    		me.data_index < me.data_count) {
+                    	me.load_data(me.data_index + 1, 2);
                     }
                 }
             }, 70));
