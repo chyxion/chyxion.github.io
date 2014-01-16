@@ -1,7 +1,8 @@
-$(function () {
+$(function() {
     $('#main_content').headsmart()
     // trigger matrix
-    $('#matrix_trigger').click(function () {
+    $('#matrix_trigger').click(function() {
+        window.scrollTo(0, 0);
         $('body').append([
             '<div style="position: absolute;',
                 'z-index: 1024;',
@@ -17,34 +18,34 @@ $(function () {
             q = stage.get(0),
             width = d.width(),
             height = d.height() - $('h1').height() - 6,
-            yPositions = Array(300).join(0).split(''),
+            yy = Array(300).join(0).split(''),
             ctx = q.getContext('2d');
 
         q.width = width;
         q.height = height;
          
         // run_matrix();
-        var matrix_interval = setInterval(function () {
+        var matrix_interval = setInterval(function() {
             ctx.fillStyle = 'rgba(0, 0, 0, .05)';
             ctx.fillRect(0, 0, width, height);
             ctx.fillStyle = '#0F0';
             ctx.font = '10pt Georgia';
 
-            yPositions.map(function(y, index) {
+            yy.map(function(y, index) {
                 ctx.fillText(String.fromCharCode(1e2 + Math.random() * 33),
                     (index * 10) + 10, 
                     y);
 
                 if(y > 100 + Math.random() * 1e4) {
-                    yPositions[index] = 0;
+                    yy[index] = 0;
                 }
                 else {
-                    yPositions[index] = y + 10;
+                    yy[index] = y + 10;
                 }
             });
         }, 33);
         // click stop
-        stage.click(function () {
+        stage.click(function() {
             clearInterval(matrix_interval);
             $(this).parents('div').remove();            
         });
