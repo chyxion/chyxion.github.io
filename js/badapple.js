@@ -2,7 +2,7 @@ $(function() {
     var BadApple = {
         is_running: false,
         data_index: 0,
-        data_count: 135,
+        data_count: 67,
         is_loading: {},
         progress: $('#progress'),
         init: function() {
