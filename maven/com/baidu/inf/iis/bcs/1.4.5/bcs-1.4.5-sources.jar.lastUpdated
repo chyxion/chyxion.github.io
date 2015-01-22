@@ -1,0 +1,22 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jan 16 09:31:17 CST 2015
+http\://repo1.maven.org/maven2/.lastUpdated=1418887461001
+http\://central.maven.org/maven2/.lastUpdated=1420705416147
+http\://repo1.maven.org/maven2/org/apache/maven/.lastUpdated=1418884245688
+http\://maven.oschina.net/content/repositories/thirdparty/.lastUpdated=1420340163048
+http\://flaginfo-xnchen\:8081/nexus/content/groups/public/.error=Could not transfer artifact com.baidu.inf.iis\:bcs\:jar\:sources\:1.4.5 from/to mirror-central (http\://flaginfo-xnchen\:8081/nexus/content/groups/public/)\: flaginfo-xnchen
+http\://flaginfo-xnchen\:8081/nexus/content/repositories/central/.error=
+http\://maven.oschina.net/content/groups/public/.lastUpdated=1403438886660
+http\://repo.maven.apache.org/maven2/.lastUpdated=1420682211429
+http\://repo1.maven.org/maven2/org/apache/maven/.error=
+http\://repo.maven.apache.org/maven2/.error=
+http\://maven.oschina.net/content/groups/public/.error=
+http\://maven.oschina.net/content/repositories/thirdparty/.error=
+http\://10.0.0.196\:8081/nexus/content/groups/public/.error=
+http\://central.maven.org/maven2/.error=
+http\://flaginfo-xnchen\:8081/nexus/content/repositories/central/.lastUpdated=1420336102771
+@default-http\://flaginfo-xnchen\:8081/nexus/content/groups/public/.lastUpdated=1421032507899
+http\://chyxion.github.io/maven/.error=
+http\://10.0.0.196\:8081/nexus/content/groups/public/.lastUpdated=1421371877211
+http\://chyxion.github.io/maven/.lastUpdated=1415177842769
+http\://repo1.maven.org/maven2/.error=
