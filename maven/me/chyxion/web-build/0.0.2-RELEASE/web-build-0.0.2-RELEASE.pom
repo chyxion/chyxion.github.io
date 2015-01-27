@@ -15,11 +15,11 @@
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+        <!-- Default Log Config -->
         <log.root>info, console, file</log.root>
         <log.level>info</log.level>
-        <log.home>${project.basedir}/.log</log.home>
-        
-        <!-- spring profiles -->
+        <log.dir>${project.basedir}/.log</log.dir>
+        <!-- Spring Profiles -->
         <spring.profile.development>development</spring.profile.development>
         <spring.profile.sit>sit</spring.profile.sit>
         <spring.profile.production>production</spring.profile.production>
@@ -31,7 +31,7 @@
             <artifactId>spring-ext</artifactId>
             <version>0.0.1-RELEASE</version>
         </dependency>
-        <!-- mybatis -->
+        <!-- MyBatis -->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
@@ -40,6 +40,7 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-spring</artifactId>
         </dependency>
+        <!-- Datasource -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
@@ -140,11 +141,6 @@
 	</build>
     <!-- Custom Repo -->
     <repositories>
-        <repository>
-            <id>osc-maven</id>
-            <name>OSChina Nexus</name>
-            <url>http://maven.oschina.net/content/groups/public/</url>
-        </repository>
         <repository>
             <id>chyxion-github</id>
             <name>Chyxion GitHub</name>
