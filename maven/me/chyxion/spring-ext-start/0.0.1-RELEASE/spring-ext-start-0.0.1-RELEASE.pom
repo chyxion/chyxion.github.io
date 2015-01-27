@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+        http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>me.chyxion</groupId>
+    <artifactId>spring-ext-start</artifactId>
+    <version>0.0.1-RELEASE</version>
+    <packaging>jar</packaging>
+    <name>Spring Ext Start</name>
+    <url>http://chyxion.github.io</url>
+    <repositories>
+        <repository>
+            <id>chyxion-github</id>
+            <name>Chyxion GitHub</name>
+            <url>http://chyxion.github.io/maven/</url>
+        </repository>
+    </repositories>
+    <developers>
+        <developer>
+            <id>chyxion</id>
+            <name>Shaun Chyxion</name>
+            <email>chyxion@163.com</email>
+            <url>http://chyxion.github.io</url>
+        </developer>
+    </developers>
+</project>
