@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>me.chyxion</groupId>
+  <artifactId>web-build</artifactId>
+  <versioning>
+    <release>0.0.2-RELEASE</release>
+    <versions>
+      <version>0.0.1-RELEASE</version>
+      <version>0.0.2-RELEASE</version>
+    </versions>
+    <lastUpdated>20150127091743</lastUpdated>
+  </versioning>
+</metadata>
