@@ -16,8 +16,7 @@
         <maven.compiler.target>1.6</maven.compiler.target>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
         <!-- Default Log Config -->
-        <log.root>info, console, file</log.root>
-        <log.level>info</log.level>
+        <log.root>debug, console, file</log.root>
         <log.dir>${project.basedir}/.log</log.dir>
         <!-- Spring Profiles -->
         <spring.profile.development>development</spring.profile.development>
