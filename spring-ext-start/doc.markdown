@@ -5,10 +5,11 @@ title: Spring Ext Start Document
 # Spring Ext Start
     
 ## I. Build Project From CLI
-to be sure [`maven`](http://maven.apache.org/download.cgi) has been installed.
+To be sure [`Maven`](http://maven.apache.org/download.cgi) has been installed.
+![](images/mvn-v.png)
 
 ### Init Project
-download [`launch.bat`](launch.bat) / [`launch.sh`](launch.sh) and [`settings.xml`](settings.xml) to your directory, open terminal there.
+Download and uzip [`launch.zip`](launch.zip) to your directory, open terminal there.
 
 On Windows
 
@@ -20,7 +21,8 @@ Or Linux/Unix
 
 ![](images/launch-cli-01.png)
 
-It takes few minutes, please be patient, if errors caused, please try again, it most likely is network error.
+
+It takes few minutes, please be patient, if errors caused, please try again, it most likely is network error, you may put `settings.xml` to `${user.home}/.m2/` directory.
 
 ![](images/launch-cli-02.png)
 
