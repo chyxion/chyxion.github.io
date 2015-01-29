@@ -38,10 +38,10 @@ After Project Generate Successfully, Then Change To The Project Directory, Run P
 
 ## II. Build Project By Eclipse
 ### Add Archetype
-#### Menu -> Preferences
+#### Menu -&gt; Preferences
 ![](images/add-archetype-01.png)
 
-#### Maven -> Archetypes -> Add Remote Catalog...
+#### Maven -&gt; Archetypes -&gt; Add Remote Catalog...
 ![](images/add-archetype-02.png)
 
 #### Catalog File `http://chyxion.github.io/maven/archetype-catalog.xml`
@@ -70,9 +70,6 @@ After Project Generate Successfully, Then Change To The Project Directory, Run P
 
 #### Setup Goals As `tomcat7:run`
 ![](images/launch-project-03.png)
-
-#### Launch Project
-![](images/launch-project-04.png)
 
 ### Open Browser `http://localhost:8080`
 ![](images/open-browser.png)
