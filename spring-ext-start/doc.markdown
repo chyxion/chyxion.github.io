@@ -10,7 +10,7 @@ To be sure [`Maven`](http://maven.apache.org/download.cgi) has been installed.
 ![](images/mvn-v.png)
 
 ### Init Project
-Download and uzip [`spring-ext.zip`](spring-ext.zip) to your directory, open terminal there.
+Download and unzip [`spring-ext.zip`](spring-ext.zip) to your directory, open terminal there.
 
 On Windows
 
