@@ -102,6 +102,7 @@ Relaunch Application.
 In `pom.xml` There Are 3 Profiles [dev, sit, prod], Each Profile Has Different Configurations, You May Use `mvn -P prod` to Switch to `prod` Profile.
 
 ## Custom Project
+
 ### I. Custom JSON Response
 Implement `me.chyxion.spring.ext.DataModelAssembler` And Register Spring Bean.
 
