@@ -37,7 +37,9 @@ After Project Generate Successfully, Then Change To The Project Directory, Run P
     http://localhost:8080
 
 ## II. Build Project By Eclipse
+
 ### Add Archetype
+
 #### Menu -&gt; Preferences
 ![](images/add-archetype-01.png)
 
