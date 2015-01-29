@@ -5,10 +5,10 @@ title: Spring Ext Start Document
 # Spring Ext Start
     
 ## I. Build Project From CLI
-To Be Sure [`Maven`](http://maven.apache.org/download.cgi) Has Been Installed.
+to be sure [`maven`](http://maven.apache.org/download.cgi) has been installed.
 
 ### Init Project
-Download [`launch.bat`](launch.bat) Or [`launch.sh`](launch.sh) And [`settings.xml`](settings.xml) To Your Directory, Open Terminal There.
+download [`launch.bat`](launch.bat) / [`launch.sh`](launch.sh) and [`settings.xml`](settings.xml) to your directory, open terminal there.
 
 On Windows
 
@@ -20,13 +20,12 @@ Or Linux/Unix
 
 ![](images/launch-cli-01.png)
 
-It Takes Few Minutes, Please Be Patient, If Errors Caused, 
-Please Try Again, It Most Likely Is Network Error.
+It takes few minutes, please be patient, if errors caused, please try again, it most likely is network error.
 
 ![](images/launch-cli-02.png)
 
-### Runb Project
-After Project Generate Successfully, Then Change To The Project Directory, Run Project.
+### Run Project
+After project generate successfully, then change to the project directory, run project.
 
     ~ cd <artifactId>
     ~ mvn tomat7:run
@@ -79,7 +78,7 @@ After Project Generate Successfully, Then Change To The Project Directory, Run P
 ### Setup Database Configuration
 ![](images/database-config.png)
 
-You Need Create The Database You Configured.
+You need create the database you configured.
 
 ### Open Code Gen `http://localhost:8080/codegen`
 ![](images/code-gen-01.png)
@@ -99,19 +98,19 @@ Relaunch Application.
 ![](images/code-gen-result.png)
 
 ## Maven Profile
-In `pom.xml` There Are 3 Profiles [dev, sit, prod], Each Profile Has Different Configurations, You May Use `mvn -P prod` to Switch to `prod` Profile.
+In `pom.xml` there are 3 profiles [dev, sit, prod], each profile has different configurations, you may use `mvn -p prod` to switch to `prod` profile.
 
-## Custom Project
+## III. Custom Project
 
 ### I. Custom JSON Response
-Implement `me.chyxion.spring.ext.DataModelAssembler` And Register Spring Bean.
+Implement `me.chyxion.spring.ext.DataModelAssembler` and register Spring bean.
 
 ### II. Custom Data Model ID
-Implement `me.chyxion.spring.ext.IdGenerator` And Register Spring Bean.
+Implement `me.chyxion.spring.ext.IdGenerator` and register Spring bean.
 
 ### III. Custom View Resolver
-Register Your View Resolver Bean With Order Less Than 16.
+Register your view resolver bean with order less than 16.
 
-## Contacts
+## IV. Contacts
 
 chyxion@163.com
