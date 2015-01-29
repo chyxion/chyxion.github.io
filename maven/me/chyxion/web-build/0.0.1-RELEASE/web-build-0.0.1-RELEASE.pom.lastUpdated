@@ -1,7 +1,7 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jan 28 09:02:44 CST 2015
+#Thu Jan 29 08:48:00 CST 2015
 http\://10.0.0.196\:8081/nexus/content/groups/public/.error=
-http\://10.0.0.196\:8081/nexus/content/groups/public/.lastUpdated=1422406914913
-http\://maven.oschina.net/content/repositories/thirdparty/.lastUpdated=1422406964103
-http\://chyxion.github.io/maven/.lastUpdated=1422406964672
+http\://10.0.0.196\:8081/nexus/content/groups/public/.lastUpdated=1422492472290
+http\://maven.oschina.net/content/repositories/thirdparty/.lastUpdated=1422492479238
+http\://chyxion.github.io/maven/.lastUpdated=1422492480006
 http\://maven.oschina.net/content/repositories/thirdparty/.error=
