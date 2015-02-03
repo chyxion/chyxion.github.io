@@ -28,7 +28,7 @@
         <dependency>
             <groupId>me.chyxion</groupId>
             <artifactId>spring-ext</artifactId>
-            <version>0.0.2-RELEASE</version>
+            <version>0.0.3-RELEASE</version>
         </dependency>
         <!-- MyBatis -->
         <dependency>
@@ -172,4 +172,17 @@
             <url>http://chyxion.github.io</url>
         </developer>
     </developers>
+
+    <distributionManagement>
+        <repository>
+            <id>release</id>
+            <name>Internal Releases</name> 
+            <url>http://10.0.0.196:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot</id>
+            <name>Internal Snapshot</name> 
+            <url>http://10.0.0.196:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
