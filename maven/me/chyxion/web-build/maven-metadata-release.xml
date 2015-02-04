@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>me.chyxion</groupId>
-  <artifactId>spring-ext</artifactId>
+  <artifactId>web-build</artifactId>
   <versioning>
-    <release>0.0.4-RELEASE</release>
+    <release>0.0.2-RELEASE</release>
     <versions>
+      <version>0.0.2-RELEASE</version>
       <version>0.0.3-RELEASE</version>
-      <version>0.0.4-RELEASE</version>
     </versions>
-    <lastUpdated>20150204090708</lastUpdated>
+    <lastUpdated>20150204091938</lastUpdated>
   </versioning>
 </metadata>
