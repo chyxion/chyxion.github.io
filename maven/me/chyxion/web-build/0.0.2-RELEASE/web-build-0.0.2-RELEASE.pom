@@ -19,6 +19,7 @@
         <log.root>debug, console, file</log.root>
         <log.dir>${project.basedir}/.log</log.dir>
         <!-- Spring Profiles -->
+        <spring.version>4.1.4.RELEASE</spring.version>
         <spring.profile.development>development</spring.profile.development>
         <spring.profile.sit>sit</spring.profile.sit>
         <spring.profile.production>production</spring.profile.production>
@@ -28,7 +29,7 @@
         <dependency>
             <groupId>me.chyxion</groupId>
             <artifactId>spring-ext</artifactId>
-            <version>0.0.4-RELEASE</version>
+            <version>0.0.6-RELEASE</version>
         </dependency>
         <!-- MyBatis -->
         <dependency>

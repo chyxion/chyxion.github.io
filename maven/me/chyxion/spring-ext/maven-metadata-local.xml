@@ -3,11 +3,10 @@
   <groupId>me.chyxion</groupId>
   <artifactId>spring-ext</artifactId>
   <versioning>
-    <release>0.0.4-RELEASE</release>
+    <release>0.0.6-RELEASE</release>
     <versions>
-      <version>0.0.3-RELEASE</version>
-      <version>0.0.4-RELEASE</version>
+      <version>0.0.6-RELEASE</version>
     </versions>
-    <lastUpdated>20150204090708</lastUpdated>
+    <lastUpdated>20150212023936</lastUpdated>
   </versioning>
 </metadata>
