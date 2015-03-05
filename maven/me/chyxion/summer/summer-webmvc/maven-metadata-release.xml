@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>me.chyxion.summer</groupId>
+  <artifactId>summer-webmvc</artifactId>
+  <versioning>
+    <release>0.0.9-RELEASE</release>
+    <versions>
+      <version>0.0.8-RELEASE</version>
+      <version>0.0.9-RELEASE</version>
+    </versions>
+    <lastUpdated>20150305070749</lastUpdated>
+  </versioning>
+</metadata>

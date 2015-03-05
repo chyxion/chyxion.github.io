@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+        http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>me.chyxion.summer</groupId>
+	<artifactId>summer-parent</artifactId>
+	<version>0.0.2-RELEASE</version>
+	<packaging>pom</packaging>
+	<name>Summer Parent</name>
+	<description>Summer Parent</description>
+
+	<developers>
+		<developer>
+			<id>chyxion</id>
+			<name>Shaun Chyxion</name>
+			<email>chyxion@163.com</email>
+			<url>http://chyxion.github.io</url>
+		</developer>
+	</developers>
+    <scm>
+        <connection>scm:git:https://github.com/chyxion/summer-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:chyxion/summer-parent.git</developerConnection>
+        <url>https://github.com/chyxion/summer-parent</url>
+    </scm>
+	<properties>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+        <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+	</properties>
+    <repositories>
+        <repository>
+            <id>chyxion-github</id>
+            <name>Chyxion GitHub</name>
+            <url>http://chyxion.github.io/maven/</url>
+        </repository>
+    </repositories>
+
+    <modules>
+        <module>../summer-webmvc</module>
+        <module>../summer-webmvc-shiro</module>
+        <module>../summer-webmvc-archetype</module>
+        <module>../summer-webmvc-build</module>
+    </modules>
+    <distributionManagement>
+        <repository>
+            <id>release</id>
+            <name>Internal Releases</name> 
+            <url>http://10.0.0.196:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot</id>
+            <name>Internal Snapshot</name> 
+            <url>http://10.0.0.196:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>
