@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>me.chyxion.summer</groupId>
-  <artifactId>summer-webmvc-archetype</artifactId>
+  <artifactId>summer-webmvc-shiro</artifactId>
   <versioning>
     <release>0.0.3-RELEASE</release>
     <versions>
       <version>0.0.3-RELEASE</version>
     </versions>
-<<<<<<< HEAD
-    <lastUpdated>20150617060150</lastUpdated>
-=======
-    <lastUpdated>20150305070757</lastUpdated>
->>>>>>> 7a4f912ad94aea9c37f170476dc2aebddd06dc49
+    <lastUpdated>20150305070756</lastUpdated>
   </versioning>
 </metadata>
