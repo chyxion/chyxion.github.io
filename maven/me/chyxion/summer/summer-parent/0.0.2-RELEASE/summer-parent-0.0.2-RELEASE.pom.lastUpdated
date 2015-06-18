@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Apr 19 20:11:52 CST 2015
+@default-http\://10.0.0.196\:8081/nexus/content/groups/public/.lastUpdated=1429445503815
+http\://10.0.0.196\:8081/nexus/content/groups/public/.error=Could not transfer artifact me.chyxion.summer\:summer-parent\:pom\:0.0.2-RELEASE from/to repo-central (http\://10.0.0.196\:8081/nexus/content/groups/public/)\: connect timed out
+http\://maven.oschina.net/content/repositories/thirdparty/.lastUpdated=1429445511688
+http\://chyxion.github.io/maven/.lastUpdated=1429445512731
+http\://central.maven.org/maven2/.error=
+http\://maven.oschina.net/content/repositories/thirdparty/.error=
+http\://central.maven.org/maven2/.lastUpdated=1429445505957

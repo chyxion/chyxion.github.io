@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Apr 20 08:51:52 CST 2015
+@default-http\://maven.oschina.net/content/repositories/thirdparty/.lastUpdated=1429444242656
+http\://central.maven.org/maven2/.lastUpdated=1429444240125
+http\://chyxion.github.io/maven/.error=
+http\://10.0.0.196\:8081/nexus/content/groups/public/.lastUpdated=1429491112596
+http\://chyxion.github.io/maven/.lastUpdated=1429444244247
+http\://maven.oschina.net/content/repositories/thirdparty/.error=Could not transfer artifact me.chyxion.summer\:summer-shiro\:pom\:0.0.5-RELEASE from/to repo-thirdparty (http\://maven.oschina.net/content/repositories/thirdparty/)\: Software caused connection abort\: recv failed
+http\://central.maven.org/maven2/.error=
