@@ -1,5 +1,4 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-<<<<<<< HEAD
 #Sun Apr 19 20:11:33 CST 2015
 @default-http\://10.0.0.196\:8081/nexus/content/groups/public/.lastUpdated=1429445488705
 http\://10.0.0.196\:8081/nexus/content/groups/public/.error=Could not transfer artifact me.chyxion.summer\:summer-webmvc-build\:pom\:0.0.4-RELEASE from/to repo-central (http\://10.0.0.196\:8081/nexus/content/groups/public/)\: connect timed out
@@ -8,14 +7,3 @@ http\://chyxion.github.io/maven/.lastUpdated=1429445493779
 http\://central.maven.org/maven2/.error=
 http\://maven.oschina.net/content/repositories/thirdparty/.error=
 http\://central.maven.org/maven2/.lastUpdated=1429445489257
-=======
-#Sat Feb 28 10:38:03 CST 2015
-http\://10.0.0.196\:8081/nexus/content/groups/public/.lastUpdated=1425091057499
-http\://10.0.0.196\:8081/nexus/content/groups/public/.error=
-http\://maven.oschina.net/content/groups/public/.lastUpdated=1425091083868
-http\://maven.oschina.net/content/repositories/thirdparty/.lastUpdated=1425091063759
-http\://chyxion.github.io/maven/.lastUpdated=1425091064257
-http\://maven.oschina.net/content/repositories/thirdparty/.error=
-http\://chyxion.github.io/maven/.error=
-http\://maven.oschina.net/content/groups/public/.error=
->>>>>>> 7a4f912ad94aea9c37f170476dc2aebddd06dc49

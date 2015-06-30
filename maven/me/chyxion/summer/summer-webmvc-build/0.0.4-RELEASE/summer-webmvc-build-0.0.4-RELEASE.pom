@@ -22,11 +22,7 @@
         <log.root>debug, console, file</log.root>
         <log.dir>${project.basedir}/.log</log.dir>
         <!-- Spring Profiles -->
-<<<<<<< HEAD
         <spring.version>4.1.5.RELEASE</spring.version>
-=======
-        <spring.version>4.1.4.RELEASE</spring.version>
->>>>>>> 7a4f912ad94aea9c37f170476dc2aebddd06dc49
         <spring.profile.development>development</spring.profile.development>
         <spring.profile.sit>sit</spring.profile.sit>
         <spring.profile.production>production</spring.profile.production>
@@ -36,11 +32,7 @@
         <dependency>
             <groupId>me.chyxion.summer</groupId>
             <artifactId>summer-webmvc</artifactId>
-<<<<<<< HEAD
             <version>0.1.5-RELEASE</version>
-=======
-            <version>0.0.9-RELEASE</version>
->>>>>>> 7a4f912ad94aea9c37f170476dc2aebddd06dc49
         </dependency>
         <!-- MyBatis -->
         <dependency>
@@ -62,13 +54,8 @@
         <dependencies>
             <dependency>
                 <groupId>me.chyxion.summer</groupId>
-<<<<<<< HEAD
                 <artifactId>summer-shiro</artifactId>
                 <version>0.0.1-RELEASE</version>
-=======
-                <artifactId>summer-webmvc-shiro</artifactId>
-                <version>0.0.3-RELEASE</version>
->>>>>>> 7a4f912ad94aea9c37f170476dc2aebddd06dc49
             </dependency>
             <dependency>
                 <groupId>javax.servlet</groupId>
@@ -96,11 +83,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
-<<<<<<< HEAD
                 <version>${spring.version}</version>
-=======
-                <version>4.1.4.RELEASE</version>
->>>>>>> 7a4f912ad94aea9c37f170476dc2aebddd06dc49
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
@@ -112,27 +95,6 @@
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
-<<<<<<< HEAD
-=======
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-                <version>2.7</version>
-				<configuration>
-					<encoding>${project.build.sourceEncoding}</encoding>
-				</configuration>
-			</plugin>
-			<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
-				<configuration>
-					<source>${maven.compiler.source}</source>
-					<target>${maven.compiler.target}</target>
-					<encoding>${project.build.sourceEncoding}</encoding>
-				</configuration>
-			</plugin>
->>>>>>> 7a4f912ad94aea9c37f170476dc2aebddd06dc49
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>

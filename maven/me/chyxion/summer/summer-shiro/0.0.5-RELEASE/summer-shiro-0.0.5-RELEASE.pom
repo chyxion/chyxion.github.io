@@ -13,12 +13,10 @@
         <artifactId>summer-parent</artifactId>
         <version>0.0.2-RELEASE</version>
     </parent>
-     
 	<dependencies>
         <dependency>
             <groupId>me.chyxion.summer</groupId>
             <artifactId>summer-webmvc</artifactId>
-            <version>0.1.5-RELEASE</version>
             <scope>provided</scope>
         </dependency>
         <!-- shiro -->
@@ -43,7 +41,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<version>4.1.4.RELEASE</version>
+			<version>${spring.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>

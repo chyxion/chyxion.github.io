@@ -12,6 +12,13 @@
 	<name>Summer Parent</name>
 	<description>Summer Parent</description>
 
+	<properties>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+        <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+		<spring.version>4.1.6.RELEASE</spring.version>
+	</properties>
+
 	<developers>
 		<developer>
 			<id>chyxion</id>
@@ -25,17 +32,12 @@
         <developerConnection>scm:git:git@github.com:chyxion/summer-parent.git</developerConnection>
         <url>https://github.com/chyxion/summer-parent</url>
     </scm>
-	<properties>
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
-        <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-	</properties>
-<<<<<<< HEAD
+
     <modules>
         <module>../summer-webmvc</module>
         <module>../summer-shiro</module>
         <module>../summer-webmvc-archetype</module>
-        <module>../summer-webmvc-build</module>
+        <module>../summer-webapp-parent</module>
     </modules>
 
     <dependencyManagement>
@@ -43,7 +45,7 @@
             <dependency>
                 <groupId>me.chyxion.summer</groupId>
                 <artifactId>summer-webmvc</artifactId>
-                <version>0.1.5-RELEASE</version>
+                <version>0.1.9-RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -116,6 +118,7 @@
                                     target/lib
                                 </outputDirectory>
                                 <excludeScope>provided</excludeScope>
+                                <includeScope>runtime</includeScope>
                             </configuration>
                         </execution>
                     </executions>
@@ -173,8 +176,6 @@
 		</pluginManagement>
 	</build>
 
-=======
->>>>>>> 7a4f912ad94aea9c37f170476dc2aebddd06dc49
     <repositories>
         <repository>
             <id>chyxion-github</id>
@@ -183,15 +184,6 @@
         </repository>
     </repositories>
 
-<<<<<<< HEAD
-=======
-    <modules>
-        <module>../summer-webmvc</module>
-        <module>../summer-webmvc-shiro</module>
-        <module>../summer-webmvc-archetype</module>
-        <module>../summer-webmvc-build</module>
-    </modules>
->>>>>>> 7a4f912ad94aea9c37f170476dc2aebddd06dc49
     <distributionManagement>
         <repository>
             <id>release</id>

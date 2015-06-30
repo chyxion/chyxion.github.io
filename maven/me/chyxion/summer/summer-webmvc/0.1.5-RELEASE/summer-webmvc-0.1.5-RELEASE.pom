@@ -6,7 +6,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>summer-webmvc</artifactId>
-	<version>0.0.9-RELEASE</version>
+	<version>0.1.5-RELEASE</version>
 	<packaging>jar</packaging>
 	<name>Summer Web MVC</name>
 	<description>Spring MVC Extension</description>
@@ -30,11 +30,8 @@
         <url>https://github.com/chyxion/summer-webmvc</url>
     </scm>
 	<properties>
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
-        <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 		<spring.version>4.1.4.RELEASE</spring.version>
-		<mybatis.version>3.2.7</mybatis.version>
+		<mybatis.version>3.2.8</mybatis.version>
 		<mybatis.spring.version>1.2.2</mybatis.spring.version>
 	</properties>
 
@@ -42,7 +39,7 @@
 		<dependency>
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
-			<version>2.3.20</version>
+			<version>2.3.22</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -67,7 +64,7 @@
 		</dependency>
 		<dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
+            <artifactId>slf4j-api</artifactId>
             <version>1.7.7</version>
         </dependency>
         <dependency>
@@ -138,36 +135,39 @@
 			<version>4.12</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.12</version>
+            <scope>test</scope>
+		</dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.0.8</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.7</version>
+            <scope>test</scope>
+        </dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <!-- <version>3.1</version> -->
-				<configuration>
-					<source>${maven.compiler.source}</source>
-					<target>${maven.compiler.target}</target>
-					<encoding>${project.build.sourceEncoding}</encoding>
-				</configuration>
-			</plugin>
+    <build>
+        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <!-- <version>2.4</version> -->
-                <executions>
-                    <execution>
-                        <id>attach-sources</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
-		</plugins>
-	</build>
+        </plugins>
+        <testResources>
+            <testResource>
+                <filtering>true</filtering>
+			    <directory>src/test/resources</directory>
+            </testResource>
+        </testResources>
+    </build>
 	<profiles>
         <profile>
             <id>chyxion-repo</id>

@@ -1,11 +1,5 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-<<<<<<< HEAD
-#Wed Jun 17 14:01:50 CST 2015
+#Fri Jun 19 10:16:47 CST 2015
 summer-webmvc-archetype-0.0.3-RELEASE.pom>=
 summer-webmvc-archetype-0.0.3-RELEASE.jar>=
 summer-webmvc-archetype-0.0.3-RELEASE-sources.jar>=
-=======
-#Thu Mar 05 15:07:57 CST 2015
-summer-webmvc-archetype-0.0.3-RELEASE.pom>=
-summer-webmvc-archetype-0.0.3-RELEASE.jar>=
->>>>>>> 7a4f912ad94aea9c37f170476dc2aebddd06dc49
