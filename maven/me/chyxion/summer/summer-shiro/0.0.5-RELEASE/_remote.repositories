@@ -1,8 +1,8 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Tue Jun 30 18:55:41 CST 2015
+#Thu Jul 23 12:37:32 CST 2015
 summer-shiro-0.0.5-RELEASE.jar>=
 summer-shiro-0.0.5-RELEASE.pom>repo-central=
-summer-shiro-0.0.5-RELEASE.pom>=
-summer-shiro-0.0.5-RELEASE.jar>repo-central=
 summer-shiro-0.0.5-RELEASE-sources.jar>=
+summer-shiro-0.0.5-RELEASE.jar>repo-central=
+summer-shiro-0.0.5-RELEASE.pom>=
 summer-shiro-0.0.5-RELEASE-sources.jar>repo-central=

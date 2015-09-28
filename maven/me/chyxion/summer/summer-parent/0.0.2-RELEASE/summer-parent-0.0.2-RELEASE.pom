@@ -13,10 +13,10 @@
 	<description>Summer Parent</description>
 
 	<properties>
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-		<spring.version>4.1.6.RELEASE</spring.version>
+		<spring.version>4.2.1.RELEASE</spring.version>
 	</properties>
 
 	<developers>
@@ -34,10 +34,10 @@
     </scm>
 
     <modules>
-        <!-- <module>../summer-webmvc</module> -->
-        <!-- <module>../summer-shiro</module> -->
-        <!-- <module>../summer-webmvc-archetype</module> -->
-        <!-- <module>../summer-webapp-parent</module> -->
+        <module>../summer-webmvc</module>
+        <module>../summer-shiro</module>
+        <module>../summer-webmvc-archetype</module>
+        <module>../summer-webapp-parent</module>
     </modules>
 
     <dependencyManagement>
@@ -45,17 +45,12 @@
             <dependency>
                 <groupId>me.chyxion.summer</groupId>
                 <artifactId>summer-webmvc</artifactId>
-                <version>0.1.9-RELEASE</version>
+                <version>0.2.1-RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>me.chyxion.summer</groupId>
-                <artifactId>summer-webmvc</artifactId>
-                <version>0.1.9-RELEASE</version>
-            </dependency>
-            <dependency>
-                <groupId>me.chyxion.summer</groupId>
-                <artifactId>summer-webmvc-shiro</artifactId>
-                <version>0.0.5-RELEASE</version>
+                <artifactId>summer-shiro</artifactId>
+                <version>0.0.6-RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>me.chyxion.summer</groupId>
@@ -153,6 +148,11 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-expression</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.uuid</groupId>
+                <artifactId>java-uuid-generator</artifactId>
+                <version>3.1.4</version>
             </dependency>
             <dependency>
                 <groupId>io.netty</groupId>
