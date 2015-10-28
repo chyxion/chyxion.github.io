@@ -3,7 +3,7 @@
   <groupId>me.chyxion.summer</groupId>
   <artifactId>summer-webmvc</artifactId>
   <versioning>
-    <release>0.2.1-RELEASE</release>
+    <release>0.2.4-RELEASE</release>
     <versions>
       <version>0.1.5-RELEASE</version>
       <version>0.1.6-RELEASE</version>
@@ -12,7 +12,10 @@
       <version>0.1.9-RELEASE</version>
       <version>0.2.0-RELEASE</version>
       <version>0.2.1-RELEASE</version>
+      <version>0.2.2-RELEASE</version>
+      <version>0.2.3-RELEASE</version>
+      <version>0.2.4-RELEASE</version>
     </versions>
-    <lastUpdated>20150923104245</lastUpdated>
+    <lastUpdated>20151028111322</lastUpdated>
   </versioning>
 </metadata>
